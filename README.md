@@ -1,5 +1,5 @@
 
-# Práctica de Algoritmos de Ordenamiento
+# Ejercicios de Recursividad
 
 ## 📌 Información General
 
