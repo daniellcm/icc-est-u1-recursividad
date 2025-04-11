@@ -58,5 +58,11 @@ Suma de 1 a 5: 15
 
 /// Ejercicio 3 ///
 Suma de digitos de 7921: 19
+
+/// Ejercicio Descendente ///
+Imprimir descendente: 5 4 3 2 1
+
+/// Ejericio Reverso ///
+El reverso de 9876 es: 6789
 ---
 
