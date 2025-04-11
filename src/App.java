@@ -7,6 +7,7 @@ public class App {
         int exponente = 3;
         int digitos = 7921;
         int resultado = factorial(n);
+        int numero = 9876;
 
         System.out.println("Resultado: " + resultado);
 
@@ -26,6 +27,19 @@ public class App {
 
     System.out.println("/// Ejercicio 3 ///");
     System.out.println("Suma de digitos de " + digitos + ": "  + sum.sumaDigitos(digitos));
+
+    EjerciciosRecursivos imprimir = new EjerciciosRecursivos();
+    System.out.println(" ");
+    System.out.println("/// Ejercicio Descendente ///");
+    System.out.print("Imprimir descendente: ");
+    imprimir.imprimirDescendente(5);
+    System.out.println(" ");
+
+    EjerciciosRecursivos reverso = new EjerciciosRecursivos();
+    int resultadoReverso = reverso.reverso(numero, 0);
+    System.out.println(" ");
+    System.out.println("/// Ejericio Reverso ///");
+    System.out.println("El reverso de " + numero + " es: " + resultadoReverso);
     }
 
     public static int factorial(int n) {

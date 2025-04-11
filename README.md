@@ -19,6 +19,8 @@ Ejercicios de Recursividad:
 - Suma Consecutiva
 - Potencia
 - Suma de Digitos
+- Recursiva Descendentemente
+- Recursiva Reverso
 
 ---
 
