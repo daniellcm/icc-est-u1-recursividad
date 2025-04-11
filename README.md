@@ -3,7 +3,7 @@
 
 ## 📌 Información General
 
-- **Título:** Práctica de Algoritmos de Ordenamiento
+- **Título:** Ejercicios de Recursividad
 - **Asignatura:** Estructura de Datos
 - **Carrera:** Computación
 - **Estudiante:** Guillermo Daniel Cajas Ortega
@@ -14,16 +14,11 @@
 
 ## 🛠️ Descripción
 
-Este proyecto implementa y compara diferentes algoritmos de ordenamiento en Java, incluyendo:
-- Método Burbuja
-- Método Selección
-- Método Inserción
-- Método Burbuja Mejorado
-
-Se permite elegir:
-- Tipo de orden (Ascendente o Descendente).
-- Visualización de pasos intermedios.
-- Visualización del número de comparaciones y cambios.
+Ejercicios de Recursividad:
+- Fibonacci
+- Suma Consecutiva
+- Potencia
+- Suma de Digitos
 
 ---
 
@@ -42,22 +37,24 @@ Para ejecutar el proyecto:
 
 ---
 
-## 🧑‍💻 Ejemplo de Entrada
+## 🧑‍💻 Ejecucion: 
 
 ```plaintext
-Seleccione el método de ordenamiento:
-1. Burbuja
-2. Selección
-3. Inserción
-4. Burbuja Mejorado
-5. Salir
+---- Programa Funcionando ----
+Alcanse el caso base 
+Calculando factorial de: 1 * factorial 0 = 1
+Calculando factorial de: 2 * factorial 1 = 2
+Calculando factorial de: 3 * factorial 2 = 6
+Calculando factorial de: 4 * factorial 3 = 24
+Calculando factorial de: 5 * factorial 4 = 120
+Resultado: 120
+Fibonacci de 5: 5
+Suma de 1 a 5: 15
 
-¿Desea ver los pasos? (true/false):
-true
+/// Potencia ///
+2^3 = 8
 
-¿Desea ordenar ascendentemente (A) o descendentemente (D)?:
-A
-```
-
+/// Ejercicio 3 ///
+Suma de digitos de 7921: 19
 ---
 

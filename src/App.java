@@ -35,7 +35,7 @@ public class App {
         }
 
         int resultado = n * factorial(n - 1);
-        System.out.println("Calculando factorial de: " + n + " * factorial(" + (n - 1) + " = " + resultado);
+        System.out.println("Calculando factorial de: " + n + " * factorial " + (n - 1) + " = " + resultado);
 
         return resultado;
     }
