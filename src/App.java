@@ -5,6 +5,7 @@ public class App {
         int n = 5;
         int base = 2;
         int exponente = 3;
+        int digitos = 7921;
         int resultado = factorial(n);
 
         System.out.println("Resultado: " + resultado);
@@ -15,11 +16,16 @@ public class App {
     int sumaResult = er.sumaConsecitivos(5);
     System.out.println("Suma de 1 a 5: " + sumaResult);
 
+    System.out.println(" ");
     EjerciciosRecursivos poten = new EjerciciosRecursivos();
+    System.out.println("/// Potencia ///");
     System.out.println(base + "^" + exponente + " = " + poten.getPotencia(base, exponente));
-
+    
+    System.out.println("");
     EjerciciosRecursivos sum = new EjerciciosRecursivos();
-    System.out.println("Suma de digitos de 8331: " + sum.sumaDigitos(8331));
+
+    System.out.println("/// Ejercicio 3 ///");
+    System.out.println("Suma de digitos de " + digitos + ": "  + sum.sumaDigitos(digitos));
     }
 
     public static int factorial(int n) {
@@ -33,5 +39,4 @@ public class App {
 
         return resultado;
     }
-
 }

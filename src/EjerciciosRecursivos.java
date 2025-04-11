@@ -13,7 +13,7 @@ public class EjerciciosRecursivos {
         }
         return n + sumaConsecitivos(n - 1); 
     }
-
+ 
     public int getPotencia(int base, int exponente) {
         if (exponente == 0) {
             return 1;
@@ -21,10 +21,14 @@ public class EjerciciosRecursivos {
         return base * getPotencia(base, exponente - 1);
     }
 
-    public int sumaDigitos(int numero) {
-        if (numero == 0) {
-            return 0;
+    public int sumaDigitos(int num) {
+        if (num < 10) {
+            return num;
+        }else {
+            int ultimoDigito = num % 10;
+            int resta = num / 10;
+            return ultimoDigito + sumaDigitos(resta);
         }
-        return numero % 10 + sumaDigitos(numero / 10);
+        
     }
 }
